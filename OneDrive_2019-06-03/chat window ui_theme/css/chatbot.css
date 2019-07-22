@@ -1,0 +1,315 @@
+#donut-charts{
+      height: 250px;
+      width: 250px;
+    }
+
+.Style1{
+  margin:0px 0px 0px 0px;
+}
+#accImage{
+  height:50px;
+  width:221px;
+  float:left;
+  padding-left: 40px;
+  margin-top:11px;
+}
+
+#owner{
+  float:right;
+  font-style: white;
+  
+  width: 39.9%;
+  height: 13vh;
+  border-radius: 7px;
+  
+  top: 0px;
+  background-color: #89bdd3;
+}
+.topbanner{
+  width: 60%;
+  height: 13vh;
+  float: left;
+  top: 0px;
+  background-color: #89bdd3;
+  border-radius: 7px;
+}
+.footer{
+  width: 100%;
+  height: 5vh;
+  margin-left: 0px;
+  position:fixed;
+  bottom: 0px;
+  background-color: #9ad3de;
+}
+#nav-side-menu {
+  width: 10%;
+  height: 450px;
+  margin-left: 1px;
+  margin-top: 65px;
+  font: 15px arial, sans-serif;
+  background-color: #0e0e0f;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  box-shadow: 1px 1px 1px 1rey;
+  border-radius: 2px;
+  float: left;
+  bottom: 0px;
+}
+.bodybox {
+  width: 100%;
+  height: 450px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font: 15px arial, sans-serif;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  box-shadow: 1px 1px 1px 1rey;
+  border-radius: 2px;
+  float: left;
+  bottom: 0px;
+  }
+.chatbox {
+  width: 95%;
+  height: 450px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font: 12px arial, sans-serif;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-radius: 2px;
+  float: left;
+  bottom: 0px;
+}
+
+#chartArea{
+      /* padding: 74px 20px 20px 21px;
+      align-items: center; */
+      font-size: 12px arial, sans-serif;
+
+}
+#chartTitle{
+  text-align: center;
+  padding-top: 32
+
+}
+
+
+#header{
+
+font: 20px arial, sans-serif;
+text-align: center;
+margin-top: -20px;
+box-shadow: 1px 1px 1px 1rey;
+
+float: center;
+}
+#chartfooter{
+border-style: solid;
+border-width: 1px;
+font: 20px arial, sans-serif;
+text-align: center;
+margin-top: 5px;
+box-shadow: 1px 1px 1px 1rey;
+border-radius: 2px;
+float: center;
+}
+#chatborder {
+  border-style: solid;
+  background-color: #fcfbf4;
+  border-width: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 15px;
+  border-radius: 15px;
+}
+
+.chatlog {
+   font: 15px arial, sans-serif;
+   padding-right: 15px;
+   padding-left: 10px;
+}
+
+#chatbox {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	width: 100%;
+}
+
+h1 {
+  margin: auto;
+}
+
+pre {
+  background-color: #f0f0f0;
+  margin-left: 20px;
+}
+
+.line-chart
+    {
+        border: 1px solid lightgray;
+    }
+
+    
+.bar:hover {
+  fill: brown;
+}
+.axis--x path {
+  display: none;
+}
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+.circle {
+  fill: #66758e;
+}
+#d3Chart{
+  width: 500px;
+  height: 300px;
+}
+
+
+
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+  
+.hover-line {
+  stroke: #6F257F;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+
+
+#thumbnail {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    color: #787777;
+    text-align: center;
+  }
+
+#datainfo{
+  position: fixed;
+  bottom: 57px;
+  left : 1160px;
+}
+
+
+
+ #showChatBox{
+overflow-y: auto;
+height: 80%;
+margin:10px;
+border: 1px solid #ccc;
+
+ }     
+
+ #inputBox{
+  margin:10px;
+ }   
+
+ .x-axis-layer line, .y-axis-layer line,
+.x-axis-layer path, .y-axis-layer path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+    cursor: s-resize;
+    background-repeat: no-repeat;
+        background-position: 3% center;
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
+  
+  th.des:after {
+      content: "\21E9";
+    }
+    
+    th.aes:after {
+      content: "\21E7";
+    }
+
+    #page-wrap {
+    margin: 0px;
+    overflow-y: auto;
+    }
+    p {
+   margin: 20px 0; 
+    }
+
+  iframe.embed-responsive-item{
+    height:76%;
+  }
+  
+  table.dataframe tr>td.number {
+    text-align: right;
+  }
+
+  .left .chat-body .header>small{
+      margin-left : 10px;
+  }
+
+  .right .chat-body .header>small{
+    margin-right : 17px;
+  }
+
+  .right .chat-body .header{
+      margin-left: 32px;
+      height: 20px;
+  }
+
+  .left .chat-body .header>strong {
+    margin-left : 1px;
+  }
+
+  .bkgrnd{
+    background-color: white;
+  }

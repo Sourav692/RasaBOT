@@ -1,0 +1,1382 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there!"
+      },
+      {
+        "intent": "self_Desc",
+        "text": "Who are you"
+      },
+      {
+        "intent": "self_Desc",
+        "text": "May I know more on you"
+      },
+      {
+        "intent": "self_Desc",
+        "text": "Can you tell something about you"
+      },
+      {
+        "intent": "self_Desc",
+        "text": "tell me about yourself"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "target_nlg",
+        "text": "Can you please show me my target details"
+      },
+      {
+        "intent": "target_nlg",
+        "text": "How am I performing"
+      },
+      {
+        "intent": "target_nlg",
+        "text": "My performance details please"
+      },
+      {
+        "intent": "target_nlg",
+        "text": "How is my performance"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 48,
+            "end": 59,
+            "value": "this fiscal",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "what is the contract value for support expiring this fiscal"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 48,
+            "end": 59,
+            "value": "next fiscal",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "what is the contract value for support expiring next fiscal"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 48,
+            "end": 57,
+            "value": "next fiscal",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "what is the contract value for support expiring next year"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "this fiscal",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "contract value for support expiring this fiscal"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 45,
+            "value": "next year",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "contract value for support expiring next year"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 48,
+            "end": 57,
+            "value": "this year",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "what is the contract value for support expiring this year"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 45,
+            "end": 61,
+            "value": "last fiscal year",
+            "entity": "fyyear"
+          },
+          {
+            "start": 39,
+            "end": 41,
+            "value": "Z1",
+            "entity": "productline"
+          }
+        ],
+        "text": "show me contracts expiring for product Z1 in last fiscal year "
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "FY17Q2",
+            "entity": "fyqtr"
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "FY17Q2",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "tell support contracts due to expire in FY17Q2"
+      },
+      {
+        "intent": "thank_You",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thank_You",
+        "text": "thank you"
+      },
+      {
+        "intent": "thank_You",
+        "text": "thx"
+      },
+      {
+        "intent": "thank_You",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 40,
+            "end": 52,
+            "value": "this quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "tell support contracts due to expire in this quarter "
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 47,
+            "value": "this quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Support contracts due to expire in this quarter"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 81,
+            "end": 92,
+            "value": "this fiscal",
+            "entity": "fyyear"
+          },
+          {
+            "start": 71,
+            "end": 80,
+            "value": "Australia",
+            "entity": "country"
+          },
+          {
+            "start": 40,
+            "end": 58,
+            "value": "storage networking",
+            "entity": "productline"
+          }
+        ],
+        "text": "i need details of contracts for product storage networking expiring in Australia this fiscal"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 51,
+            "end": 57,
+            "value": "FY19Q2",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Can you please tell how many contracts will end in FY19Q2"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "FY18Q2",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "In FY18Q2 how many contracts due to expire?"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "India",
+            "entity": "country"
+          },
+          {
+            "start": 52,
+            "end": 63,
+            "value": "this fiscal",
+            "entity": "fyyear"
+          },
+          {
+            "start": 31,
+            "end": 42,
+            "value": "CMS Support",
+            "entity": "productline"
+          }
+        ],
+        "text": "In India contracts for product CMS Support expiring this fiscal"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 53,
+            "value": "Australia",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in Australia"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 53,
+            "value": "Singapore",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in Singapore"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 51,
+            "value": "Germany",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in Germany"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 68,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in United States of America"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 51,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in America"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 57,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in United States"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 46,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in US"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 47,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in USA"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 39,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Show me contract amount expiring in USA"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Show me contract amount expiring in America"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 49,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Show me contract amount expiring in United States"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 38,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Show me contract amount expiring in US"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 38,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "Show me contract amount expiring in us"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 37,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "I need contract amount expiring in US"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 42,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "I need contract amount expiring in America"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 38,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "I need contract amount expiring in USA"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "I need contract amount expiring in U.S.A"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "United States of America",
+            "entity": "country"
+          }
+        ],
+        "text": "I need contract amount expiring in u.s.a"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 49,
+            "value": "Republic Of Korea",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in Korea"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 58,
+            "value": "Republic Of Korea",
+            "entity": "country"
+          }
+        ],
+        "text": "Can you tell me contract amount expiring in Korea Republic"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 38,
+            "end": 47,
+            "value": "Moonshot ",
+            "entity": "productline"
+          },
+          {
+            "start": 50,
+            "end": 58,
+            "value": "Pakistan",
+            "entity": "country"
+          }
+        ],
+        "text": "give details of contracts for product Moonshot in Pakistan"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 32,
+            "end": 45,
+            "value": "D2D StoreOnce",
+            "entity": "productline"
+          },
+          {
+            "start": 58,
+            "end": 64,
+            "value": "Angola",
+            "entity": "country"
+          },
+          {
+            "start": 68,
+            "end": 72,
+            "value": "2019",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "i need details of contracts for D2D StoreOnce expiring in Angola in 2019"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "India",
+            "entity": "country"
+          },
+          {
+            "start": 44,
+            "end": 68,
+            "value": "x86 Entry and Value Rack",
+            "entity": "productline"
+          }
+        ],
+        "text": "tell contract summary details for India and x86 Entry and Value Rack"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "India",
+            "entity": "country"
+          },
+          {
+            "start": 44,
+            "end": 68,
+            "value": "x86 Entry and Value Rack",
+            "entity": "productline"
+          }
+        ],
+        "text": "tell me contract summary details for India and x86 Entry and Value Rack"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "India",
+            "entity": "country"
+          },
+          {
+            "start": 44,
+            "end": 68,
+            "value": "x86 Entry and Value Rack",
+            "entity": "productline"
+          }
+        ],
+        "text": "show contract summary details for India and x86 Entry and Value Rack"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 39,
+            "end": 51,
+            "value": "8L - CMS Products",
+            "entity": "productline"
+          },
+          {
+            "start": 55,
+            "end": 71,
+            "value": "this fiscal year",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "show me contracts expiring for product CME Services in this fiscal year"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 45,
+            "end": 57,
+            "value": "CME Services",
+            "entity": "productline"
+          },
+          {
+            "start": 107,
+            "end": 111,
+            "value": "2019",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "Show me the number of assets of product line CME Services that have end of service life in the fiscal year 2019"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 34,
+            "end": 50,
+            "value": "this fiscal year",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "What is the asset count with eosl this fiscal year?"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "fy2018",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "give assets with eosl in fy2018"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 40,
+            "end": 44,
+            "value": "2024",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "Tell assets with end of service life in 2024"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 51,
+            "end": 64,
+            "value": "D2D StoreOnce",
+            "entity": "productline"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "this quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "how many assets have eosl this quarter for product D2D StoreOnce?"
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 33,
+            "end": 46,
+            "value": "Andreas Tichy",
+            "entity": "flm"
+          },
+          {
+            "start": 68,
+            "end": 72,
+            "value": "2019",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "Show me the pipeline for manager Andreas Tichy for this fiscal year 2019"
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 38,
+            "value": "fernando caro",
+            "entity": "flm"
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "this year",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "what is the pipeline for fernando caro this year?"
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 47,
+            "end": 59,
+            "value": "this quarter",
+            "entity": "fyqtr"
+          },
+          {
+            "start": 31,
+            "end": 46,
+            "value": "Kristine Durazo",
+            "entity": "flm"
+          }
+        ],
+        "text": "How does pipeline look for flm Kristine Durazo this quarter?"
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "Peggy",
+            "entity": "flm"
+          }
+        ],
+        "text": "Show number of accounts for Peggy."
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Keiko",
+            "entity": "flm"
+          }
+        ],
+        "text": "Give details of accounts for Keiko."
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Jenni",
+            "entity": "flm"
+          }
+        ],
+        "text": "Tell active accounts for Jenni."
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 38,
+            "value": "Adriana silva",
+            "entity": "flm"
+          },
+          {
+            "start": 39,
+            "end": 55,
+            "value": "this fiscal year",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "What is the pipeline for Adriana silva this fiscal year?"
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 13,
+            "end": 26,
+            "value": "Rakesh Ranjan",
+            "entity": "flm"
+          }
+        ],
+        "text": "Pipeline for Rakesh Ranjan"
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "Rodrigo Herrera",
+            "entity": "flm"
+          }
+        ],
+        "text": "Number of accounts for Rodrigo Herrera"
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "Agnes Labrosse",
+            "entity": "flm"
+          }
+        ],
+        "text": "active accounts for Agnes Labrosse"
+      },
+      {
+        "intent": "pipeline_Summary",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "Karen Fry",
+            "entity": "flm"
+          }
+        ],
+        "text": "active accounts currently for Karen Fry "
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 39,
+            "value": "education services",
+            "entity": "productline"
+          }
+        ],
+        "text": "number of assets for education services"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 16,
+            "end": 41,
+            "value": "legacy Proactive Services",
+            "entity": "productline"
+          }
+        ],
+        "text": "total assets in legacy Proactive Services"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 52,
+            "value": "HP Technology Software Services",
+            "entity": "productline"
+          }
+        ],
+        "text": "show total assets in HP Technology Software Services"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 31,
+            "end": 49,
+            "value": "Technical Services",
+            "entity": "productline"
+          }
+        ],
+        "text": "total assets this fiscal under Technical Services"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 42,
+            "end": 56,
+            "value": "Bladed Storage",
+            "entity": "productline"
+          },
+          {
+            "start": 23,
+            "end": 35,
+            "value": "this quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "total number of assets this quarter under Bladed Storage"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "2020 ",
+            "entity": "fyqtr"
+          },
+          {
+            "start": 32,
+            "end": 34,
+            "value": "JN",
+            "entity": "productline"
+          }
+        ],
+        "text": "assets in 2020 under product id JN"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "H2",
+            "entity": "productline"
+          },
+          {
+            "start": 11,
+            "end": 20,
+            "value": "this year",
+            "entity": "country"
+          }
+        ],
+        "text": "num assets this year under H2"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "H5",
+            "entity": "productline"
+          }
+        ],
+        "text": "total assets under H5"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "J3",
+            "entity": "productline"
+          }
+        ],
+        "text": "num assets this year under J3"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "J0",
+            "entity": "productline"
+          }
+        ],
+        "text": "num assets this year under J0"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "1X",
+            "entity": "productline"
+          }
+        ],
+        "text": "num assets this year under 1X"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "1Y",
+            "entity": "productline"
+          }
+        ],
+        "text": "num assets this year under 1Y"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "2F",
+            "entity": "productline"
+          }
+        ],
+        "text": "num assets this year under 2F"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "6H",
+            "entity": "productline"
+          }
+        ],
+        "text": "total assets for 6H"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 17,
+            "end": 45,
+            "value": "TS Cloudline Servers Support",
+            "entity": "productline"
+          }
+        ],
+        "text": "total assets for TS Cloudline Servers Support"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 13,
+            "end": 33,
+            "value": "Product Pull Through",
+            "entity": "productline"
+          }
+        ],
+        "text": "assets under Product Pull Through"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "SW & Options",
+            "entity": "productline"
+          }
+        ],
+        "text": "show num of assets for SW & Options"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "K3 ",
+            "entity": "productline"
+          }
+        ],
+        "text": "K3 assets"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "LG",
+            "entity": "country"
+          }
+        ],
+        "text": "LG asset count"
+      },
+      {
+        "intent": "asset_Summary",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "RD",
+            "entity": "productline"
+          }
+        ],
+        "text": "RD total asset count"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "entities": [
+          {
+            "start": 32,
+            "end": 47,
+            "value": "current quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Can I see opportunity value for current quarter by asset status"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "this year",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "Opportunity value for this year by asset status"
+      },
+      {
+        "intent": "opportunity_salesstage_chart",
+        "entities": [
+          {
+            "start": 32,
+            "end": 47,
+            "value": "current quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Can I see opportunity value for current quarter by salesstage"
+      },
+      {
+        "intent": "opportunity_salesstage_chart",
+        "entities": [
+          {
+            "start": 42,
+            "end": 48,
+            "value": "FY17Q2",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Can you please show opportunity value for FY17Q2"
+      },
+      {
+        "intent": "opportunity_salesstage_chart",
+        "text": "Show me distribution by salesstage"
+      },
+      {
+        "intent": "opportunity_salesstage_chart",
+        "text": "wat is the distribution of salesStage for opportunities?"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "entities": [
+          {
+            "start": 28,
+            "end": 44,
+            "value": "previous quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "opportunity by asset status previous quarter"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "text": "show me opportunity by status "
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "fy18Q3",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "In fy18Q3 how many contracts due to expire?"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 39,
+            "end": 46,
+            "value": "FY20Q2 ",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "how many contracts due to expire in In FY20Q2 "
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "FY18Q4",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "In FY18Q4, count of contracts about to expire?"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "fy18q1",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Details of contract in fy18q1"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "fy18q1",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "contracts expiring this fiscal fy18q1"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 51,
+            "end": 57,
+            "value": "FY19Q3",
+            "entity": "fyqtr"
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "Angola",
+            "entity": "country"
+          }
+        ],
+        "text": "Tell support contracts due to expire in Angola for FY19Q3"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "country",
+        "elements": "country.txt"
+      },
+      {
+        "name": "productline",
+        "elements": "productline.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "current_fy",
+        "synonyms": [
+          "this fiscal",
+          "current fiscal",
+          "this fiscal year",
+          "current fiscal Year",
+          "this year",
+          "current year"
+        ]
+      },
+      {
+        "value": "prev_fy",
+        "synonyms": [
+          "previous fiscal",
+          "last fiscal",
+          "previous fiscal year",
+          "last fiscal Year",
+          "previous year",
+          "a year before"
+        ]
+      },
+      {
+        "value": "next_fy",
+        "synonyms": [
+          "next fiscal",
+          "next fiscal year",
+          "coming fiscal Year",
+          "next year",
+          "a year after"
+        ]
+      },
+      {
+        "value": "current_qtr",
+        "synonyms": [
+          "this Quarter",
+          "current quarter",
+          "this fiscal quarter",
+          "current fiscal quarter",
+          "this quarter"
+        ]
+      },
+      {
+        "value": "prev_qtr",
+        "synonyms": [
+          "previous quarter",
+          "last quarter",
+          "previous quarter year",
+          "last quarter Year",
+          "a quarter before"
+        ]
+      },
+      {
+        "value": "United States of America",
+        "synonyms": [
+          "USA",
+          "United States",
+          "America",
+          "U.S.A.",
+          "US",
+          "us",
+          "u.s.a",
+          "usa"
+        ]
+      },
+      {
+        "value": "Republic Of Korea",
+        "synonyms": [
+          "Korea",
+          "Korea Republic",
+          "korea"
+        ]
+      }
+    ]
+  }
+}

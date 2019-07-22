@@ -1,0 +1,95 @@
+4U - Volume Software
+4A - 3PAR  Mid Range HW
+72 - MCS Server Support
+23 - BCS SOFTWARE
+MV - C-Class Units & Enclosures
+3S - D2D StoreOnce
+I5 - Office Connect Switching
+96 - Industry Standard Servers Support
+JN - Legacy Proactive Services
+LS - Aruba Campus Services
+6W - 3PAR Support Services
+R8 - Non3PAR Storage Support
+43 - 3PAR Mid Range SW
+N3 - Nimble Storage Services
+VN - Aruba Location Based Products
+SH - Focus Options
+35 - Aruba Branded Switching
+LN - XP Disk & SW
+SD - SW Defined Storage
+UW - Installation and Deployment Services
+34 - FlexNetwork Swithcing
+LA - x86 Tower
+4Q - x86 Entry and Value Rack
+FE - Integrated Infrastructure
+3P - Aruba OC WLAN Products
+LL - Bladed Storage
+H5 - Nimble Storage Entry Arrays
+SY - x86 Premium and Scale-up Rack
+FS - OneView
+J2 - Scale-Out SAN Disk StoreVirtual
+H0 - SGI HPC SW
+L3 - Aruba Security Products
+LM - EVA Disk & SW
+TN - Scale-out Computing and HPC
+9X - Datacenter Care Proactive Services
+1Y - Storage Networking
+UY - TS Multivendor Services
+VL - Aruba WLAN
+2M - Moonshot
+TQ - BCS Blades
+SI - Server Storage & Inf
+3V - Entry NAS StoreEasy
+VN - Aruba Software
+HA - Integrated Platforms
+VP - SGI HPC HW
+N6 - Aruba Cloud and Ntwk Mgmt Products
+LJ - Enterprise Nearline
+J3 - 3rd Party Software x86
+1X - HP IntegritySolution
+JN - Technical Services
+8V - CloudSystem Software
+NT - FlexFabric ToR Switching
+S5 - Third Party Products - Resale
+LI - Commercial Disk & SW
+7G - Network Services
+3Z - 3PAR High End SW
+UW - Lifecycle Event Services
+79 - Product Pass Through
+FA - Data Center Converged Infrastructure
+72 - BCS SERVER SUPPORT
+3C - Commercial Tape & SW
+K3 - HP Technology Software Services
+TR - BCS x-86 Servers
+I7 - Routing
+H6 - Nimble Storage Enterprise Arrays
+H7 - Nimble Storage Add-Ons and Expansion Shelves
+JN - Mission Critical and Technical Services
+UZ - C-Class Converged Solutions
+S7 - Synergy Value Options
+8L - CMS Products
+4F - 3PAR High-End HW
+7A - Storage Supplies
+1Z - TS Network Consulting
+6H - HPE Branded Switching
+LK - Scale Out NAS
+S6 - Synergy Infrastructure and Compute
+VR - Aruba WLAN Services
+VP - HPC High End
+EF - CMS Support
+I6 - FlexFabric Core Switching
+1U - Networking Software
+VR - HPN Aruba Services
+Consumption As A Service
+S4 - Apollo 4000
+4J - EDUCATION SERVICES
+9W - CMS Solution Managed Services
+S8 - Hyperconverged
+L1 - Arista HW/SW
+L4 - Aruba Security Services
+RG - SGI MCS HW
+H5 - Nimble MR AFA                   
+G4 - Data Center Platforms Consulting
+S2 - Converged IoT Systems - Edgeline
+EA - Data Center Facilities Consulting
+H7 - Nimble Entry AFA                "

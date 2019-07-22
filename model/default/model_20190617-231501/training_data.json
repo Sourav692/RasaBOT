@@ -1,0 +1,328 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "self_Desc",
+        "text": "Who are you"
+      },
+      {
+        "intent": "self_Desc",
+        "text": "May I know more on you"
+      },
+      {
+        "intent": "self_Desc",
+        "text": "Can you tell something about you"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 48,
+            "end": 59,
+            "value": "this fiscal",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "what is the contract value for support expiring this fiscal"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "FY17Q2",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "tell support contracts due to expire in FY17Q2"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "FY19Q1",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "tell support contracts due to expire in FY19Q1"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "FY17Q4 ",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "In FY17Q4 what is the support contracts due to expire"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "India",
+            "entity": "country"
+          }
+        ],
+        "text": "In India how many contracts due to expire"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Japan",
+            "entity": "country"
+          }
+        ],
+        "text": "how many contracts due to expire in Japan"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 39,
+            "value": "USA",
+            "entity": "country"
+          }
+        ],
+        "text": "how many contracts due to expire in USA"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 44,
+            "end": 67,
+            "value": "72 - MCS Server Support",
+            "entity": "productline"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "India ",
+            "entity": "country"
+          }
+        ],
+        "text": "tell contract summary details for India and 72 - MCS Server Support"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 40,
+            "end": 55,
+            "value": "VL - Aruba WLAN",
+            "entity": "productline"
+          },
+          {
+            "start": 68,
+            "end": 77,
+            "value": "Australia",
+            "entity": "country"
+          },
+          {
+            "start": 78,
+            "end": 89,
+            "value": "this fiscal",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "i need details of contracts for product VL - Aruba WLAN expiring in Australia this fiscal"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "entities": [
+          {
+            "start": 43,
+            "end": 49,
+            "value": "FY17Q2",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Show opportunity value by asset status for FY17Q2"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "entities": [
+          {
+            "start": 38,
+            "end": 50,
+            "value": "this quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Opportunity value by asset status for this quarter"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "entities": [
+          {
+            "start": 45,
+            "end": 57,
+            "value": "last quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Opportunity distribution by asset status for last quarter"
+      },
+      {
+        "intent": "opportunity_salesstage_chart",
+        "entities": [
+          {
+            "start": 42,
+            "end": 48,
+            "value": "FY17Q2",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Can you please show opportunity value for FY17Q2"
+      },
+      {
+        "intent": "opportunity_salesstage_chart",
+        "entities": [
+          {
+            "start": 32,
+            "end": 47,
+            "value": "current quarter",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Can I see opportunity value for current quarter by salesstage"
+      },
+      {
+        "intent": "thank_You",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thank_You",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thank_You",
+        "text": "thx"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "FY19Q4",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "tell support contracts due to expire in FY19Q4"
+      },
+      {
+        "intent": "contract_Summary",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "FY17Q2",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "tell support contracts due to expire for FY17Q2"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "entities": [
+          {
+            "start": 32,
+            "end": 48,
+            "value": "current quarter ",
+            "entity": "fyqtr"
+          }
+        ],
+        "text": "Can I see opportunity value for current quarter by asset staus"
+      },
+      {
+        "intent": "opportunity_val_by_asset_status",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "this year",
+            "entity": "fyyear"
+          }
+        ],
+        "text": "Opportunity value for this year by asset status"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "country",
+        "elements": "country.txt"
+      },
+      {
+        "name": "productline",
+        "elements": "productline.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "current_fy",
+        "synonyms": [
+          "this fiscal",
+          "curret fiscal",
+          "this fiscal year",
+          "curret fiscal Year",
+          "this year",
+          "current year"
+        ]
+      },
+      {
+        "value": "prev_fy",
+        "synonyms": [
+          "previous fiscal",
+          "last fiscal",
+          "previous fiscal year",
+          "last fiscal Year",
+          "previous year",
+          "a year before"
+        ]
+      },
+      {
+        "value": "current_qtr",
+        "synonyms": [
+          "this Quarter",
+          "curret quarter",
+          "this fiscal quarter",
+          "curret fiscal quarter",
+          "this quarter",
+          "current quarter"
+        ]
+      },
+      {
+        "value": "prev_qtr",
+        "synonyms": [
+          "previous quarter",
+          "last quarter",
+          "previous quarter year",
+          "last quarter Year",
+          "a quarter before"
+        ]
+      }
+    ]
+  }
+}

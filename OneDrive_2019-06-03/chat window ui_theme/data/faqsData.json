@@ -1,0 +1,20 @@
+{"faqs" : [
+    {"en":"Tell support contracts due to expire in India for FY19Q4",
+    "es":"Por favor, muestre las 5 mejores zonas de adición de NPA."
+	},
+    {"en":"Tell support contracts due to expire in India",
+    "es":"5 grupos de actividad más NPA"
+     },    
+    {"en":"Support contracts due to expire in Japan for last quarter",
+    "es":"¿Puedo ver las cantidades de NPA por zona"
+    },
+	{"en":"Support contracts due to current quarter",
+    "es":"¿Puedo ver cantidades de NPA para diferentes regiones?"
+    },
+    {"en":"Can I see opportunity value for last quarter by salesstage",
+    "es":"Tendencia del NPA en los últimos 5 meses"
+    },
+	{"en":"Opportunity value by asset status for FY18Q2",
+    "es":"Tendencia del NPA en los últimos 5 meses"
+    }]
+}

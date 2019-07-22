@@ -1,0 +1,37 @@
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.mytooltip{
+  text-anchor: middle;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  fill:#2d3e50; 
+  display: block;
+}
+
+path{
+stroke: #66758e;
+fill: none;
+stroke-width: 2;
+}
+
+.axis path, .axis line{
+fill: none;
+stroke: steelblue;
+stroke-width: 1;
+shape-rendering: crispEdges;
+}

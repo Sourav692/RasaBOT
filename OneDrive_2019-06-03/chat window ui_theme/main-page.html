@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="SHORTCUT ICON" href="./images/favicon.ico" />
+        <link rel="icon" href="./images/favicon.ico" type="image/ico" />
+        <title>BI BOT</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="./css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="./css/jquery-ui.css">
+        <link rel="stylesheet" href="./css/main-page.css">
+        <link href="./css/flags.css" rel=stylesheet type="text/css">
+        <link rel="stylesheet" href="./css/modal.css">
+        <link rel="stylesheet" href="./css/chatbot.css">
+        <link rel="stylesheet" href="./css/stackedbar.css">
+        <link href="./css/chat-window.css" rel="stylesheet">
+        <link href="./css/all.css" rel="stylesheet">
+        <script src="./js/jquery-1.11.1.min.js"></script>
+        <script src="./js/jquery-ui.js"></script>
+        <script src="./js/jquery.indexedb.js"></script>
+        <script type="text/javascript" src="./js/jquery.i18n.properties-1.0.9.js"></script>
+        <script src="./js/moment.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/bootstrap-select.min.js"></script>
+        <script src="./js/user-exp.js"></script>
+        <script src="./js/d3.v4.min.js"></script>
+        <script src="./js/d3.tip.v0.6.3.js"></script>
+        <script src="./js/d3kit.min.js" type="text/javascript"></script>
+        <script src="./js/d3.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container" id=main_page>
+            <audio id="incoming_msg" muted="muted" autoplay="true"><source src="audio/beep.mp3" type="audio/mpeg"></audio>
+            <div class="content">
+                <div class="col-sm-3 sidenav">
+                    <div class="jumbotron">
+                        <h1 id="msg_bot">BI BOT <img src="./images/boticon3.png" class="image-dim img-circle" /> </h1>      
+                        <p id="msg_tagline">Virtual BI Assistant  - Web & Messenger</p>
+                    </div>
+                    <hr class="heading">
+                    <h4 class="faqs-heading" id="faqsHeading"> Frequently asked questions </h4>
+                    <ul class="nav nav-pills nav-stacked faqs" id="faqsul">
+                    </ul><br>
+                </div>
+        
+                <div class="col-sm-9">
+                    <div class="col-md-5 width-row">
+                        <div class="panel panel-primary">
+                            <div class="panel-body">
+                                <!-- <div>
+                                    <img src="./images/accenture.png" alt="accenture_logo" id="logo"/>
+                                </div> -->
+                                <div>
+                                <ul class="chat">
+                                        <!-- <li class="welcome left clearfix no-display"><span class="chat-img pull-left">
+                                                <img src="./images/boticon.png" alt="BI Avatar" class=" imgsize" />
+                                            </span>
+                                                <div class="chat-body clearfix">
+                                                    <div class="header"> -->
+                                                        <!-- <strong class="primary-font colr">BI Assistant</strong>--><!-- <small class="pull-right text-muted">
+                                                           <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                                    </div>
+                                                    <p>
+                                                        I'm WeBA!
+                                                    </p>
+                                                </div>
+                                            </li> -->
+                                            <!-- <li>
+                                                <center><img src="./images/accenture.png" alt="accenture_logo" id="logo"/></center>
+                                            </li> -->
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="panel-footer">
+                                    <div class="input-group">
+                                        <input id="btn-input" type="text" class="form-control input-sm row text-box" autocomplete="off" placeholder="Type your message here..." />                                                   
+                                        
+                                        <!-- <div class ="div-span">
+                                            <div class="emojis-space" style="display : none; z-index:100">
+                                        
+                                            </div> -->
+                                            <span class ="icon-span">
+                                                <!-- <i class='far fa-smile' style='font-size:22px;'></i>   -->
+                                                <i class="fa fa-microphone" aria-hidden="true"></i>
+                                            </span>
+                                        <!-- </div> -->
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-warning btn-sm" id="btn-chat" >
+                                                Send
+                                            </button>
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal" style="display:none">
+            <!-- <span class="close">&times;</span> -->
+            <span class="glyphicon glyphicon-remove close"></span>
+            <div id="chatOutputPlaceHolder">
+                <div id="showChartTitle">   
+                </div>
+                <div id="chartArea">
+                    <center>
+                        <svg></svg>
+                    </center>
+                        
+                </div>
+            </div>
+        </div>
+
+        <!-- loading modal -->
+        <div id="loader" class="modal">
+
+        </div>
+            
+         <footer>
+            <span>
+            <h6 class="left-side" id="developedBy">CDM - All rights reserved</h6>
+            <select class="selectpicker" data-width="fit">
+                <option data-content='<img src="blank.gif" class="flag flag-us" alt="United States"/>' value="en" selected>English</option>
+                <option data-content='<img src="blank.gif" class="flag flag-es" alt="Spain"/>' value="es">Spanish</option>
+                <option data-content='<img src="blank.gif" class="flag flag-de" alt="Germany"/>' value="de">German</option>
+                <option data-content='<img src="blank.gif" class="flag flag-fr" alt="France"/>' value="fr">French</option>
+            </select>
+            <!-- <h6 class="right-side" id ="ownedBy"><b>Owned By </b> - Vinit Chandna </h6> -->
+            </span>
+            <span class="logo-span pull-right"><img src="./images/rsz_accenture.jpg" alt="accenture_logo" id="logo"><b>Accenture</b></span>
+        </footer>
+        <script src="./js/chatbot.js"></script>
+        <script src="./js/speechRecognition.js"></script>
+</body>
+</html>

@@ -33,7 +33,7 @@ def webhook_get_handler():
     """
     user_msg = request.args.get('form')
     print(user_msg)
-    interpreter = Interpreter.load("C:/Users/divyangana.pandey/Desktop/RasaPoc/model/default/model_20190711-123002")
+    interpreter = Interpreter.load("C:/Users/divyangana.pandey/Desktop/RasaPoc/model/default/model_20190724-121812")
     result = interpreter.parse(user_msg)
     print(result)
     entities = {}
@@ -64,7 +64,7 @@ def makeWebhookResult(intent, entities):
     contract_df = contractDF
     account_df = accountDF
     if 'fyqtr' in entities.keys():
-        if entities['fyqtr'] in ["current_qtr", "prev_qtr"]:
+        if entities['fyqtr'] in ["current_qtr", "prev_qtr","next_qtr"]:
             entities['fyqtr'] = parse_qtr(entities['fyqtr'])
     if 'fyyear' in entities.keys():
         if entities['fyyear'] in ["current_fy", "prev_fy","next_fy"]:
@@ -152,6 +152,9 @@ def parse_qtr(fyqtr):
     if fyqtr == "current_qtr":
         qtr_list = [1, 2, 3, 4]
         qtr_num = qtr_list[(today.month-1)//3]
+    if fyqtr == "next_qtr":
+        qtr_list = [2, 3, 4, 1]
+        qtr_num = qtr_list[(today.month - 1) // 3]
     if fyqtr == "prev_qtr":
         qtr_list = [4, 1, 2, 3]
         qtr_num = qtr_list[(today.month - 1) // 3]
@@ -171,11 +174,11 @@ def parse_year(fyyear):
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 70))
     print("Starting App on %d" % (port))
-    username = Your UserName
-    password = Your password
-    host = Connection 
-    mongoport = Your db port 
-    db = DATABASE name
+    username = ************
+    password = ************
+    host = ************
+    mongoport = *********
+    db = ******************
     mongo_uri = 'mongodb://%s:%s@%s:%s/%s' % (username, password, host, mongoport, db)
     targetDF = pd.read_csv("C:/Users/divyangana.pandey/Desktop/RasaPoc/targetSumm.csv")
     conn = MongoClient(mongo_uri)

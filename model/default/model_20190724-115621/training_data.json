@@ -1,108 +1,87 @@
-﻿{
+{
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "hey",
         "intent": "greet",
-        "entities": []
+        "text": "hey"
       },
       {
-        "text": "howdy",
         "intent": "greet",
-        "entities": []
+        "text": "howdy"
       },
       {
-        "text": "hey there",
         "intent": "greet",
-        "entities": []
+        "text": "hey there"
       },
       {
-        "text": "hello",
         "intent": "greet",
-        "entities": []
+        "text": "hello"
       },
       {
-        "text": "hi",
         "intent": "greet",
-        "entities": []
+        "text": "hi"
       },
       {
-        "text": "good morning",
         "intent": "greet",
-        "entities": []
+        "text": "good morning"
       },
       {
-        "text": "good evening",
         "intent": "greet",
-        "entities": []
+        "text": "good evening"
       },
       {
-        "text": "hi there",
         "intent": "greet",
-        "entities": []
+        "text": "hi there"
       },
       {
-        "text": "hi there!",
         "intent": "greet",
-        "entities": []
+        "text": "hi there!"
       },
       {
-        "text": "Who are you",
         "intent": "self_Desc",
-        "entities": []
+        "text": "Who are you"
       },
       {
-        "text": "May I know more on you",
         "intent": "self_Desc",
-        "entities": []
+        "text": "May I know more on you"
       },
       {
-        "text": "Can you tell something about you",
         "intent": "self_Desc",
-        "entities": []
+        "text": "Can you tell something about you"
       },
       {
-        "text": "tell me about yourself",
         "intent": "self_Desc",
-        "entities": []
+        "text": "tell me about yourself"
       },
       {
-        "text": "goodbye",
         "intent": "goodbye",
-        "entities": []
+        "text": "goodbye"
       },
       {
-        "text": "good bye",
         "intent": "goodbye",
-        "entities": []
+        "text": "good bye"
       },
       {
-        "text": "stop",
         "intent": "goodbye",
-        "entities": []
+        "text": "stop"
       },
       {
-        "text": "Can you please show me my target details",
         "intent": "target_nlg",
-        "entities": []
-      },
-	  {
-        "text": "How am I performing",
-        "intent": "target_nlg",
-        "entities": []
-      },
-	  {
-        "text": "My performance details please",
-        "intent": "target_nlg",
-        "entities": []
-      },
-	  {
-        "text": "How is my performance",
-        "intent": "target_nlg",
-        "entities": []
+        "text": "Can you please show me my target details"
       },
       {
-        "text": "what is the contract value for support expiring this fiscal",
+        "intent": "target_nlg",
+        "text": "How am I performing"
+      },
+      {
+        "intent": "target_nlg",
+        "text": "My performance details please"
+      },
+      {
+        "intent": "target_nlg",
+        "text": "How is my performance"
+      },
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -111,10 +90,10 @@
             "value": "this fiscal",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "what is the contract value for support expiring this fiscal"
       },
-	  {
-        "text": "what is the contract value for support expiring next fiscal",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -123,10 +102,10 @@
             "value": "next fiscal",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "what is the contract value for support expiring next fiscal"
       },
-	  {
-        "text": "what is the contract value for support expiring next year",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -135,10 +114,10 @@
             "value": "next year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "what is the contract value for support expiring next year"
       },
-	  {
-        "text": "contract value for support expiring this fiscal",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -147,10 +126,10 @@
             "value": "this fiscal",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "contract value for support expiring this fiscal"
       },
-	   {
-        "text": "contract value for support expiring next year",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -159,10 +138,10 @@
             "value": "next year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "contract value for support expiring next year"
       },
       {
-        "text": "what is the contract value for support expiring this year",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -171,13 +150,13 @@
             "value": "this year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "what is the contract value for support expiring this year"
       },
       {
-        "text": "show me contracts expiring for product N6 in last fiscal year",
         "intent": "contract_Summary",
         "entities": [
-		  {
+          {
             "start": 39,
             "end": 41,
             "value": "N6",
@@ -189,10 +168,10 @@
             "value": "last fiscal year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "show me contracts expiring for product N6 in last fiscal year"
       },
       {
-        "text": "tell support contracts due to expire in FY17Q2",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -207,30 +186,26 @@
             "value": "FY17Q2",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "tell support contracts due to expire in FY17Q2"
       },
       {
-        "text": "thanks!",
         "intent": "thank_You",
-        "entities": []
+        "text": "thanks!"
       },
       {
-        "text": "thank you",
         "intent": "thank_You",
-        "entities": []
+        "text": "thank you"
       },
       {
-        "text": "thx",
         "intent": "thank_You",
-        "entities": []
+        "text": "thx"
       },
       {
-        "text": "thanks very much",
         "intent": "thank_You",
-        "entities": []
+        "text": "thanks very much"
       },
       {
-        "text": "tell support contracts due to expire in this quarter ",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -239,10 +214,10 @@
             "value": "this quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "tell support contracts due to expire in this quarter "
       },
-	   {
-        "text": "Support contracts due to expire in this quarter",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -251,10 +226,10 @@
             "value": "this quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Support contracts due to expire in this quarter"
       },
       {
-        "text": "Support contracts due to expire in next quarter",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -263,10 +238,10 @@
             "value": "next quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Support contracts due to expire in next quarter"
       },
       {
-        "text": "Support contracts due to expire in coming quarter",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -275,10 +250,10 @@
             "value": "coming quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Support contracts due to expire in coming quarter"
       },
       {
-        "text": "Support contracts due to expire in upcoming quarter",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -287,34 +262,34 @@
             "value": "upcoming quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Support contracts due to expire in upcoming quarter"
       },
       {
-        "text": "i need details of contracts for product lifecycle event services in Australia this fiscal",
         "intent": "contract_Summary",
         "entities": [
           {
-            "start": 40,
-            "end": 61,
-            "value": "lifecycle event services",
-            "entity": "productline"
+            "start": 81,
+            "end": 92,
+            "value": "this fiscal",
+            "entity": "fyyear"
           },
-           {
-            "start": 68,
-            "end": 77,
+          {
+            "start": 71,
+            "end": 80,
             "value": "Australia",
             "entity": "country"
           },
           {
-            "start": 78,
-            "end": 89,
-            "value": "this fiscal",
-            "entity": "fyyear"
+            "start": 40,
+            "end": 58,
+            "value": "storage networking",
+            "entity": "productline"
           }
-        ]
+        ],
+        "text": "i need details of contracts for product storage networking expiring in Australia this fiscal"
       },
       {
-        "text": "Can you please tell how many contracts will end in FY19Q2",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -323,10 +298,10 @@
             "value": "FY19Q2",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Can you please tell how many contracts will end in FY19Q2"
       },
       {
-        "text": "In FY18Q2 how many contracts due to expire?",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -335,10 +310,10 @@
             "value": "FY18Q2",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "In FY18Q2 how many contracts due to expire?"
       },
       {
-        "text": "In India contracts for product CMS Support expiring this fiscal",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -359,10 +334,10 @@
             "value": "CMS Support",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "In India contracts for product CMS Support expiring this fiscal"
       },
       {
-        "text": "Can you tell me contract amount expiring in Australia",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -371,10 +346,10 @@
             "value": "Australia",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in Australia"
       },
       {
-        "text": "Can you tell me contract amount expiring in Singapore",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -383,10 +358,10 @@
             "value": "Singapore",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in Singapore"
       },
       {
-        "text": "Can you tell me contract amount expiring in Germany",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -395,10 +370,10 @@
             "value": "Germany",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in Germany"
       },
       {
-        "text": "Can you tell me contract amount expiring in United States of America",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -407,10 +382,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in United States of America"
       },
-	  { 
-        "text": "Can you tell me contract amount expiring in America",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -419,10 +394,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in America"
       },
-	  {
-        "text": "Can you tell me contract amount expiring in United States",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -431,10 +406,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
-      }, 
-	  {
-        "text": "Can you tell me contract amount expiring in US",
+        ],
+        "text": "Can you tell me contract amount expiring in United States"
+      },
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -443,10 +418,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in US"
       },
-	  {
-        "text": "Can you tell me contract amount expiring in USA",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -455,10 +430,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in USA"
       },
-	  {
-        "text": "Show me contract amount expiring in USA",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -467,10 +442,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Show me contract amount expiring in USA"
       },
-	  {
-        "text": "Show me contract amount expiring in America",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -479,10 +454,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Show me contract amount expiring in America"
       },
-	  {
-        "text": "Show me contract amount expiring in United States",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -491,10 +466,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Show me contract amount expiring in United States"
       },
-	  {
-        "text": "Show me contract amount expiring in US",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -503,10 +478,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Show me contract amount expiring in US"
       },
-	  {
-        "text": "Show me contract amount expiring in us",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -515,10 +490,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Show me contract amount expiring in us"
       },
-	  {
-        "text": "I need contract amount expiring in US",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -527,10 +502,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "I need contract amount expiring in US"
       },
-	  {
-        "text": "I need contract amount expiring in America",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -539,10 +514,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "I need contract amount expiring in America"
       },
-	  {
-        "text": "I need contract amount expiring in USA",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -551,10 +526,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "I need contract amount expiring in USA"
       },
-	  {
-        "text": "I need contract amount expiring in U.S.A",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -563,10 +538,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "I need contract amount expiring in U.S.A"
       },
-	   {
-        "text": "I need contract amount expiring in u.s.a",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -575,10 +550,10 @@
             "value": "United States of America",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "I need contract amount expiring in u.s.a"
       },
-	  {
-        "text": "Can you tell me contract amount expiring in Korea",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -587,10 +562,10 @@
             "value": "Republic Of Korea",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in Korea"
       },
-	  {
-        "text": "Can you tell me contract amount expiring in Korea Republic",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -599,10 +574,10 @@
             "value": "Republic Of Korea",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in Korea Republic"
       },
-	  {
-        "text": "Can you tell me contract amount expiring in UAE",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -611,10 +586,10 @@
             "value": "United Arab Emirates",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in UAE"
       },
-	  {
-        "text": "Can you tell me contract amount expiring in U.A.E",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -623,10 +598,10 @@
             "value": "United Arab Emirates",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in U.A.E"
       },
-	  {
-        "text": "Can you tell me contract amount expiring in Emirates",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -635,10 +610,10 @@
             "value": "United Arab Emirates",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Can you tell me contract amount expiring in Emirates"
       },
       {
-        "text": "give details of contracts for product Moonshot in Pakistan",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -653,10 +628,10 @@
             "value": "Pakistan",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "give details of contracts for product Moonshot in Pakistan"
       },
       {
-        "text": "i need details of contracts for D2D StoreOnce expiring in Angola in 2019",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -677,10 +652,10 @@
             "value": "2019",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "i need details of contracts for D2D StoreOnce expiring in Angola in 2019"
       },
       {
-        "text": "tell contract summary details for India and x86 Entry and Value Rack",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -695,10 +670,10 @@
             "value": "x86 Entry and Value Rack",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "tell contract summary details for India and x86 Entry and Value Rack"
       },
-	   {
-        "text": "tell me contract summary details for India and x86 Entry and Value Rack",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -713,10 +688,10 @@
             "value": "x86 Entry and Value Rack",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "tell me contract summary details for India and x86 Entry and Value Rack"
       },
-	  {
-        "text": "show contract summary details for India and x86 Entry and Value Rack",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -731,10 +706,10 @@
             "value": "x86 Entry and Value Rack",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "show contract summary details for India and x86 Entry and Value Rack"
       },
-	  {
-        "text": "show contract summary details for USA for Volume Software",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -749,10 +724,10 @@
             "value": "Volume Software",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "show contract summary details for USA for Volume Software"
       },
-	  {
-        "text": "contract summary details for USA for Volume Software",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -767,10 +742,10 @@
             "value": "Volume Software",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "contract summary details for USA for Volume Software"
       },
-	  {
-        "text": "contract summary details for Singapore for Nimble Storage Services",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -785,10 +760,10 @@
             "value": "Nimble Storage Services",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "contract summary details for Singapore for Nimble Storage Services"
       },
-	  {
-        "text": "contract summary details for Greece for OneView",
+      {
         "intent": "contract_Summary",
         "entities": [
           {
@@ -803,10 +778,10 @@
             "value": "OneView",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "contract summary details for Greece for OneView"
       },
       {
-        "text": "show me contracts expiring for product CME Services in this fiscal year",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -821,10 +796,10 @@
             "value": "this fiscal year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "show me contracts expiring for product CME Services in this fiscal year"
       },
       {
-        "text": "Show me the number of assets of product line CME Services that have end of service life in the fiscal year 2019",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -839,10 +814,10 @@
             "value": "2019",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "Show me the number of assets of product line CME Services that have end of service life in the fiscal year 2019"
       },
       {
-        "text": "What is the asset count with eosl this fiscal year?",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -851,10 +826,10 @@
             "value": "this fiscal year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "What is the asset count with eosl this fiscal year?"
       },
       {
-        "text": "give assets with eosl in fy2018",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -863,10 +838,10 @@
             "value": "fy2018",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "give assets with eosl in fy2018"
       },
       {
-        "text": "Tell assets with end of service life in 2024",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -875,10 +850,10 @@
             "value": "2024",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "Tell assets with end of service life in 2024"
       },
       {
-        "text": "how many assets have eosl this quarter for product D2D StoreOnce?",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -893,10 +868,10 @@
             "value": "this quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "how many assets have eosl this quarter for product D2D StoreOnce?"
       },
       {
-        "text": "Show me the pipeline for manager Andreas Tichy for this fiscal year 2019",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -911,10 +886,10 @@
             "value": "2019",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "Show me the pipeline for manager Andreas Tichy for this fiscal year 2019"
       },
       {
-        "text": "what is the pipeline for fernando caro this year?",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -929,10 +904,10 @@
             "value": "this year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "what is the pipeline for fernando caro this year?"
       },
       {
-        "text": "How does pipeline look for flm Kristine Durazo this quarter?",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -947,10 +922,10 @@
             "value": "Kristine Durazo",
             "entity": "flm"
           }
-        ]
+        ],
+        "text": "How does pipeline look for flm Kristine Durazo this quarter?"
       },
       {
-        "text": "Show number of accounts for Peggy.",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -959,10 +934,10 @@
             "value": "Peggy",
             "entity": "flm"
           }
-        ]
+        ],
+        "text": "Show number of accounts for Peggy."
       },
       {
-        "text": "Give details of accounts for Keiko.",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -971,10 +946,10 @@
             "value": "Keiko",
             "entity": "flm"
           }
-        ]
+        ],
+        "text": "Give details of accounts for Keiko."
       },
       {
-        "text": "Tell active accounts for Jenni.",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -983,10 +958,10 @@
             "value": "Jenni",
             "entity": "flm"
           }
-        ]
+        ],
+        "text": "Tell active accounts for Jenni."
       },
       {
-        "text": "What is the pipeline for Adriana silva this fiscal year?",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -1001,10 +976,10 @@
             "value": "this fiscal year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "What is the pipeline for Adriana silva this fiscal year?"
       },
       {
-        "text": "Pipeline for Rakesh Ranjan",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -1013,10 +988,10 @@
             "value": "Rakesh Ranjan",
             "entity": "flm"
           }
-        ]
+        ],
+        "text": "Pipeline for Rakesh Ranjan"
       },
       {
-        "text": "Number of accounts for Rodrigo Herrera",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -1025,10 +1000,10 @@
             "value": "Rodrigo Herrera",
             "entity": "flm"
           }
-        ]
+        ],
+        "text": "Number of accounts for Rodrigo Herrera"
       },
       {
-        "text": "active accounts for Agnes Labrosse",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -1037,10 +1012,10 @@
             "value": "Agnes Labrosse",
             "entity": "flm"
           }
-        ]
+        ],
+        "text": "active accounts for Agnes Labrosse"
       },
       {
-        "text": "active accounts currently for Karen Fry ",
         "intent": "pipeline_Summary",
         "entities": [
           {
@@ -1049,10 +1024,10 @@
             "value": "Karen Fry",
             "entity": "flm"
           }
-        ]
+        ],
+        "text": "active accounts currently for Karen Fry "
       },
       {
-        "text": "number of assets for education services",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1061,10 +1036,10 @@
             "value": "education services",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "number of assets for education services"
       },
       {
-        "text": "total assets in legacy Proactive Services",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1073,10 +1048,10 @@
             "value": "legacy Proactive Services",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "total assets in legacy Proactive Services"
       },
       {
-        "text": "show total assets in HP Technology Software Services",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1085,10 +1060,10 @@
             "value": "HP Technology Software Services",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "show total assets in HP Technology Software Services"
       },
       {
-        "text": "total assets this fiscal under Technical Services",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1097,10 +1072,10 @@
             "value": "Technical Services",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "total assets this fiscal under Technical Services"
       },
       {
-        "text": "total number of assets this quarter under Bladed Storage",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1115,10 +1090,10 @@
             "value": "this quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "total number of assets this quarter under Bladed Storage"
       },
       {
-        "text": "assets in 2020 under product id JN",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1133,10 +1108,10 @@
             "value": "JN",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "assets in 2020 under product id JN"
       },
       {
-        "text": "num assets this year under H2",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1151,10 +1126,10 @@
             "value": "this year",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "num assets this year under H2"
       },
       {
-        "text": "total assets under H5",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1163,10 +1138,10 @@
             "value": "H5",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "total assets under H5"
       },
       {
-        "text": "num assets this year under J3",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1175,10 +1150,10 @@
             "value": "J3",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "num assets this year under J3"
       },
       {
-        "text": "num assets this year under J0",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1187,10 +1162,10 @@
             "value": "J0",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "num assets this year under J0"
       },
       {
-        "text": "num assets this year under 1X",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1199,10 +1174,10 @@
             "value": "1X",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "num assets this year under 1X"
       },
       {
-        "text": "num assets this year under 1Y",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1211,10 +1186,10 @@
             "value": "1Y",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "num assets this year under 1Y"
       },
       {
-        "text": "num assets this year under 2F",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1223,10 +1198,10 @@
             "value": "2F",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "num assets this year under 2F"
       },
       {
-        "text": "total assets for 6H",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1235,10 +1210,10 @@
             "value": "6H",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "total assets for 6H"
       },
       {
-        "text": "total assets for TS Cloudline Servers Support",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1247,10 +1222,10 @@
             "value": "TS Cloudline Servers Support",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "total assets for TS Cloudline Servers Support"
       },
       {
-        "text": "assets under Product Pull Through",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1259,10 +1234,10 @@
             "value": "Product Pull Through",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "assets under Product Pull Through"
       },
       {
-        "text": "show num of assets for SW & Options",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1271,10 +1246,10 @@
             "value": "SW & Options",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "show num of assets for SW & Options"
       },
       {
-        "text": "K3 assets",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1283,10 +1258,10 @@
             "value": "K3 ",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "K3 assets"
       },
       {
-        "text": "LG asset count",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1295,10 +1270,10 @@
             "value": "LG",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "LG asset count"
       },
       {
-        "text": "RD total asset count",
         "intent": "asset_Summary",
         "entities": [
           {
@@ -1307,10 +1282,10 @@
             "value": "RD",
             "entity": "productline"
           }
-        ]
+        ],
+        "text": "RD total asset count"
       },
       {
-        "text": "Can I see opportunity value for current quarter by asset status",
         "intent": "opportunity_val_by_asset_status",
         "entities": [
           {
@@ -1319,10 +1294,10 @@
             "value": "current quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Can I see opportunity value for current quarter by asset status"
       },
       {
-        "text": "Opportunity value for this year by asset status",
         "intent": "opportunity_val_by_asset_status",
         "entities": [
           {
@@ -1331,10 +1306,10 @@
             "value": "this year",
             "entity": "fyyear"
           }
-        ]
+        ],
+        "text": "Opportunity value for this year by asset status"
       },
       {
-        "text": "Can I see opportunity value for current quarter by salesstage",
         "intent": "opportunity_salesstage_chart",
         "entities": [
           {
@@ -1343,10 +1318,10 @@
             "value": "current quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Can I see opportunity value for current quarter by salesstage"
       },
       {
-        "text": "Can you please show opportunity value for FY17Q2",
         "intent": "opportunity_salesstage_chart",
         "entities": [
           {
@@ -1355,20 +1330,18 @@
             "value": "FY17Q2",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Can you please show opportunity value for FY17Q2"
       },
       {
-        "text": "Show me distribution by salesstage",
         "intent": "opportunity_salesstage_chart",
-        "entities": []
+        "text": "Show me distribution by salesstage"
       },
       {
-        "text": "wat is the distribution of salesStage for opportunities?",
         "intent": "opportunity_salesstage_chart",
-        "entities": []
+        "text": "wat is the distribution of salesStage for opportunities?"
       },
       {
-        "text": "opportunity by asset status previous quarter",
         "intent": "opportunity_val_by_asset_status",
         "entities": [
           {
@@ -1377,15 +1350,14 @@
             "value": "previous quarter",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "opportunity by asset status previous quarter"
       },
       {
-        "text": "show me opportunity by status ",
         "intent": "opportunity_val_by_asset_status",
-        "entities": []
+        "text": "show me opportunity by status "
       },
       {
-        "text": "In fy18Q3 how many contracts due to expire?",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -1394,10 +1366,10 @@
             "value": "fy18Q3",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "In fy18Q3 how many contracts due to expire?"
       },
       {
-        "text": "how many contracts due to expire in In FY20Q2 ",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -1406,10 +1378,10 @@
             "value": "FY20Q2 ",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "how many contracts due to expire in In FY20Q2 "
       },
       {
-        "text": "In FY18Q4, count of contracts about to expire?",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -1418,10 +1390,10 @@
             "value": "FY18Q4",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "In FY18Q4, count of contracts about to expire?"
       },
       {
-        "text": "Details of contract in fy18q1",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -1430,10 +1402,10 @@
             "value": "fy18q1",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "Details of contract in fy18q1"
       },
       {
-        "text": "contracts expiring this fiscal fy18q1",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -1442,10 +1414,10 @@
             "value": "fy18q1",
             "entity": "fyqtr"
           }
-        ]
+        ],
+        "text": "contracts expiring this fiscal fy18q1"
       },
       {
-        "text": "Tell support contracts due to expire in Angola for FY19Q3",
         "intent": "contract_Summary",
         "entities": [
           {
@@ -1460,7 +1432,8 @@
             "value": "Angola",
             "entity": "country"
           }
-        ]
+        ],
+        "text": "Tell support contracts due to expire in Angola for FY19Q3"
       }
     ],
     "regex_features": [],
@@ -1497,7 +1470,7 @@
           "a year before"
         ]
       },
-	  {
+      {
         "value": "next_fy",
         "synonyms": [
           "next fiscal",
@@ -1514,8 +1487,7 @@
           "current quarter",
           "this fiscal quarter",
           "current fiscal quarter",
-          "this quarter",
-          "current quarter"
+          "this quarter"
         ]
       },
       {
@@ -1535,7 +1507,6 @@
           "last quarter",
           "previous quarter year",
           "last quarter Year",
-          "previous quarter",
           "a quarter before"
         ]
       },
@@ -1547,20 +1518,20 @@
           "America",
           "U.S.A.",
           "US",
-		  "us",
-		  "u.s.a",
-		  "usa"
-		  ]
+          "us",
+          "u.s.a",
+          "usa"
+        ]
       },
-	  {
+      {
         "value": "Republic Of Korea",
         "synonyms": [
           "Korea",
           "Korea Republic",
           "korea"
-		  ]
+        ]
       },
-	  {
+      {
         "value": "United Arab Emirates",
         "synonyms": [
           "UAE",
@@ -1568,9 +1539,9 @@
           "U.A.E",
           "u.a.e",
           "Arab",
-		  "United Arab",
-		  "arab"
-		  ]
+          "United Arab",
+          "arab"
+        ]
       }
     ]
   }
